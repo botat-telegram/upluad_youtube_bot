@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+data/downloads/*
+!data/downloads/.gitkeep
+
+# Session files
+data/sessions/*
+!data/sessions/.gitkeep
+
+# Credentials (تجنب رفع بيانات الاعتماد)
+data/credentials/*
+!data/credentials/.gitkeep
+
+# Bot token files
+*.pickle
+token.pickle
+credentials.json
+client_secrets.json
+
+# Database
+*.db
+*.sqlite3
+
+# Environment variables
+.env
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Bot lock file
+bot.lock
+
+# Session files
+*.session
+*.session-journal
+
+# OS specific
+.DS_Store
+Thumbs.db 
